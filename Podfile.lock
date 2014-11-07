@@ -1,10 +1,13 @@
 PODS:
   - OCMock (3.1.1)
+  - Pinterest-iOS (2.3)
 
 DEPENDENCIES:
   - OCMock
+  - Pinterest-iOS
 
 SPEC CHECKSUMS:
   OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
+  Pinterest-iOS: 418044a91ac88d370a54ce06b89ee034c240171d
 
 COCOAPODS: 0.34.4

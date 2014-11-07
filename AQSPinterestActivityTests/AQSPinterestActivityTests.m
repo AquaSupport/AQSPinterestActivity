@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <OCMock.h>
 
 #import "AQSPinterestActivity.h"
 
@@ -26,7 +27,8 @@
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    self.activity = nil;
+    
     [super tearDown];
 }
 
@@ -42,8 +44,10 @@
     XCTAssertTrue([AQSPinterestActivity activityCategory] == UIActivityCategoryShare);
 }
 
-- (void)testItReturnsActivityImage {
-    XCTAssertTrue([_activity.activityImage isKindOfClass:[UIImage class]]);
+- (void)testItCantPerformActivityIfActivityItemsDoesNotContainsURL {
+    NSArray *activityItems = @[@"description"];
+    
+    XCTAssertFalse([_activity canPerformWithActivityItems:activityItems]);
 }
 
 @end

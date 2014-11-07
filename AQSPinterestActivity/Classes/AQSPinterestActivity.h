@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class Pinterest;
+
 @interface AQSPinterestActivity : UIActivity
 
 - (instancetype)initWithClientID:(NSString *)clientID;
+
+- (instancetype)initWithPinterest:(Pinterest *)pinterest;
 
 @end

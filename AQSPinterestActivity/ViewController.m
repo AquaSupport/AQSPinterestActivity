@@ -25,13 +25,11 @@
     [super viewDidAppear:animated];
     
     AQSPinterestActivity *activity = [[AQSPinterestActivity alloc] initWithClientID:@"1441227"];
-    NSArray *activityItems = @[
-                               @"whoa",
-                               [NSURL URLWithString:@"http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg"]
-                               ];
-    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:@[activity]];
+    NSArray *array = @[@"description", [NSURL URLWithString:@"http://www.toyship.org/wp-content/uploads/2012/09/IMG_8053-247x440.png"]];
     
-    [self presentViewController:activityViewController animated:YES completion:NULL];
+    UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:array applicationActivities:@[activity]];
+    
+    [self presentViewController:controller animated:YES completion:NULL];
 }
 
 - (void)didReceiveMemoryWarning {
