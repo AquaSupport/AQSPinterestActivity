@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8A2D8FCC8A67A2E1CD9DEFC /* libPods-AQSPinterestActivityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF4491B50BF49170459E07 /* libPods-AQSPinterestActivityTests.a */; };
+		D43F2FB21A0D793700AA458F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FB11A0D793700AA458F /* main.m */; };
+		D43F2FB51A0D793700AA458F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FB41A0D793700AA458F /* AppDelegate.m */; };
+		D43F2FB81A0D793700AA458F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FB71A0D793700AA458F /* ViewController.m */; };
+		D43F2FBB1A0D793700AA458F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43F2FB91A0D793700AA458F /* Main.storyboard */; };
+		D43F2FBD1A0D793700AA458F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43F2FBC1A0D793700AA458F /* Images.xcassets */; };
+		D43F2FC01A0D793700AA458F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43F2FBE1A0D793700AA458F /* LaunchScreen.xib */; };
+		D43F2FCC1A0D793700AA458F /* AQSPinterestActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FCB1A0D793700AA458F /* AQSPinterestActivityTests.m */; };
+		D43F2FD71A0D796400AA458F /* Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43F2FD61A0D796400AA458F /* Pinterest.framework */; };
+		D43F2FD91A0D799200AA458F /* AQSPinterestActivity.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */; };
+		D43F2FDC1A0D7B6F00AA458F /* AQSPinterestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FDB1A0D7B6F00AA458F /* AQSPinterestActivity.m */; };
+		D43F2FDE1A0D7F3200AA458F /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D43F2FDD1A0D7F3200AA458F /* test.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43F2FC61A0D793700AA458F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43F2FA41A0D793700AA458F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43F2FAB1A0D793700AA458F;
+			remoteInfo = AQSPinterestActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BCF4491B50BF49170459E07 /* libPods-AQSPinterestActivityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AQSPinterestActivityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4605A39B54162FF9ACABADED /* Pods-AQSPinterestActivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQSPinterestActivityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AQSPinterestActivityTests/Pods-AQSPinterestActivityTests.release.xcconfig"; sourceTree = "<group>"; };
+		D43F2FAC1A0D793700AA458F /* AQSPinterestActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQSPinterestActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43F2FB01A0D793700AA458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43F2FB11A0D793700AA458F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43F2FB31A0D793700AA458F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D43F2FB41A0D793700AA458F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D43F2FB61A0D793700AA458F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D43F2FB71A0D793700AA458F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D43F2FBA1A0D793700AA458F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D43F2FBC1A0D793700AA458F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D43F2FBF1A0D793700AA458F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D43F2FC51A0D793700AA458F /* AQSPinterestActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQSPinterestActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43F2FCA1A0D793700AA458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43F2FCB1A0D793700AA458F /* AQSPinterestActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQSPinterestActivityTests.m; sourceTree = "<group>"; };
+		D43F2FD61A0D796400AA458F /* Pinterest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pinterest.framework; sourceTree = "<group>"; };
+		D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AQSPinterestActivity.xcassets; sourceTree = "<group>"; };
+		D43F2FDA1A0D7B6F00AA458F /* AQSPinterestActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSPinterestActivity.h; sourceTree = "<group>"; };
+		D43F2FDB1A0D7B6F00AA458F /* AQSPinterestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSPinterestActivity.m; sourceTree = "<group>"; };
+		D43F2FDD1A0D7F3200AA458F /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		D85794DD8DA15CA56579233C /* Pods-AQSPinterestActivityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQSPinterestActivityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AQSPinterestActivityTests/Pods-AQSPinterestActivityTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43F2FA91A0D793700AA458F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43F2FD71A0D796400AA458F /* Pinterest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43F2FC21A0D793700AA458F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2D8FCC8A67A2E1CD9DEFC /* libPods-AQSPinterestActivityTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D43F2FA31A0D793700AA458F = {
+			isa = PBXGroup;
+			children = (
+				D43F2FD61A0D796400AA458F /* Pinterest.framework */,
+				D43F2FAE1A0D793700AA458F /* AQSPinterestActivity */,
+				D43F2FC81A0D793700AA458F /* AQSPinterestActivityTests */,
+				D43F2FAD1A0D793700AA458F /* Products */,
+				EB31CD4C7311BF3F88F5AFE3 /* Pods */,
+				D8128F7821226E6D61923964 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D43F2FAD1A0D793700AA458F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FAC1A0D793700AA458F /* AQSPinterestActivity.app */,
+				D43F2FC51A0D793700AA458F /* AQSPinterestActivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43F2FAE1A0D793700AA458F /* AQSPinterestActivity */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FD51A0D794900AA458F /* Classes */,
+				D43F2FB31A0D793700AA458F /* AppDelegate.h */,
+				D43F2FB41A0D793700AA458F /* AppDelegate.m */,
+				D43F2FDD1A0D7F3200AA458F /* test.jpg */,
+				D43F2FB61A0D793700AA458F /* ViewController.h */,
+				D43F2FB71A0D793700AA458F /* ViewController.m */,
+				D43F2FB91A0D793700AA458F /* Main.storyboard */,
+				D43F2FBC1A0D793700AA458F /* Images.xcassets */,
+				D43F2FBE1A0D793700AA458F /* LaunchScreen.xib */,
+				D43F2FAF1A0D793700AA458F /* Supporting Files */,
+			);
+			path = AQSPinterestActivity;
+			sourceTree = "<group>";
+		};
+		D43F2FAF1A0D793700AA458F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FB01A0D793700AA458F /* Info.plist */,
+				D43F2FB11A0D793700AA458F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D43F2FC81A0D793700AA458F /* AQSPinterestActivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FCB1A0D793700AA458F /* AQSPinterestActivityTests.m */,
+				D43F2FC91A0D793700AA458F /* Supporting Files */,
+			);
+			path = AQSPinterestActivityTests;
+			sourceTree = "<group>";
+		};
+		D43F2FC91A0D793700AA458F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FCA1A0D793700AA458F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D43F2FD51A0D794900AA458F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */,
+				D43F2FDA1A0D7B6F00AA458F /* AQSPinterestActivity.h */,
+				D43F2FDB1A0D7B6F00AA458F /* AQSPinterestActivity.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8128F7821226E6D61923964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF4491B50BF49170459E07 /* libPods-AQSPinterestActivityTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB31CD4C7311BF3F88F5AFE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85794DD8DA15CA56579233C /* Pods-AQSPinterestActivityTests.debug.xcconfig */,
+				4605A39B54162FF9ACABADED /* Pods-AQSPinterestActivityTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43F2FAB1A0D793700AA458F /* AQSPinterestActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43F2FCF1A0D793700AA458F /* Build configuration list for PBXNativeTarget "AQSPinterestActivity" */;
+			buildPhases = (
+				D43F2FA81A0D793700AA458F /* Sources */,
+				D43F2FA91A0D793700AA458F /* Frameworks */,
+				D43F2FAA1A0D793700AA458F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AQSPinterestActivity;
+			productName = AQSPinterestActivity;
+			productReference = D43F2FAC1A0D793700AA458F /* AQSPinterestActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43F2FC41A0D793700AA458F /* AQSPinterestActivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43F2FD21A0D793700AA458F /* Build configuration list for PBXNativeTarget "AQSPinterestActivityTests" */;
+			buildPhases = (
+				BA72C243E3D0F3FA0454C1DC /* Check Pods Manifest.lock */,
+				D43F2FC11A0D793700AA458F /* Sources */,
+				D43F2FC21A0D793700AA458F /* Frameworks */,
+				D43F2FC31A0D793700AA458F /* Resources */,
+				7007B9F309E97B0EFE46A7BC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43F2FC71A0D793700AA458F /* PBXTargetDependency */,
+			);
+			name = AQSPinterestActivityTests;
+			productName = AQSPinterestActivityTests;
+			productReference = D43F2FC51A0D793700AA458F /* AQSPinterestActivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43F2FA41A0D793700AA458F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Aquamarine;
+				TargetAttributes = {
+					D43F2FAB1A0D793700AA458F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D43F2FC41A0D793700AA458F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D43F2FAB1A0D793700AA458F;
+					};
+				};
+			};
+			buildConfigurationList = D43F2FA71A0D793700AA458F /* Build configuration list for PBXProject "AQSPinterestActivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43F2FA31A0D793700AA458F;
+			productRefGroup = D43F2FAD1A0D793700AA458F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43F2FAB1A0D793700AA458F /* AQSPinterestActivity */,
+				D43F2FC41A0D793700AA458F /* AQSPinterestActivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43F2FAA1A0D793700AA458F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43F2FBB1A0D793700AA458F /* Main.storyboard in Resources */,
+				D43F2FDE1A0D7F3200AA458F /* test.jpg in Resources */,
+				D43F2FD91A0D799200AA458F /* AQSPinterestActivity.xcassets in Resources */,
+				D43F2FC01A0D793700AA458F /* LaunchScreen.xib in Resources */,
+				D43F2FBD1A0D793700AA458F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43F2FC31A0D793700AA458F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7007B9F309E97B0EFE46A7BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AQSPinterestActivityTests/Pods-AQSPinterestActivityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA72C243E3D0F3FA0454C1DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43F2FA81A0D793700AA458F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43F2FB81A0D793700AA458F /* ViewController.m in Sources */,
+				D43F2FDC1A0D7B6F00AA458F /* AQSPinterestActivity.m in Sources */,
+				D43F2FB51A0D793700AA458F /* AppDelegate.m in Sources */,
+				D43F2FB21A0D793700AA458F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43F2FC11A0D793700AA458F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43F2FCC1A0D793700AA458F /* AQSPinterestActivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43F2FC71A0D793700AA458F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43F2FAB1A0D793700AA458F /* AQSPinterestActivity */;
+			targetProxy = D43F2FC61A0D793700AA458F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43F2FB91A0D793700AA458F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43F2FBA1A0D793700AA458F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D43F2FBE1A0D793700AA458F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43F2FBF1A0D793700AA458F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43F2FCD1A0D793700AA458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D43F2FCE1A0D793700AA458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43F2FD01A0D793700AA458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AQSPinterestActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D43F2FD11A0D793700AA458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AQSPinterestActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D43F2FD31A0D793700AA458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85794DD8DA15CA56579233C /* Pods-AQSPinterestActivityTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AQSPinterestActivityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQSPinterestActivity.app/AQSPinterestActivity";
+			};
+			name = Debug;
+		};
+		D43F2FD41A0D793700AA458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4605A39B54162FF9ACABADED /* Pods-AQSPinterestActivityTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AQSPinterestActivityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQSPinterestActivity.app/AQSPinterestActivity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43F2FA71A0D793700AA458F /* Build configuration list for PBXProject "AQSPinterestActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43F2FCD1A0D793700AA458F /* Debug */,
+				D43F2FCE1A0D793700AA458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43F2FCF1A0D793700AA458F /* Build configuration list for PBXNativeTarget "AQSPinterestActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43F2FD01A0D793700AA458F /* Debug */,
+				D43F2FD11A0D793700AA458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43F2FD21A0D793700AA458F /* Build configuration list for PBXNativeTarget "AQSPinterestActivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43F2FD31A0D793700AA458F /* Debug */,
+				D43F2FD41A0D793700AA458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43F2FA41A0D793700AA458F /* Project object */;
+}
