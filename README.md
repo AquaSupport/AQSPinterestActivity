@@ -5,11 +5,13 @@ AQSPinterestActivity
 
 ![](http://img.shields.io/cocoapods/v/AQSPinterestActivity.svg?style=flat) [![Build Status](https://travis-ci.org/AquaSupport/AQSPinterestActivity.svg?branch=master)](https://travis-ci.org/AquaSupport/AQSPinterestActivity)
 
+![](https://raw.githubusercontent.com/AquaSupport/AQSPinterestActivity/master/Screencast.gif)
+
 Usage
 ---
 
 ```objc
-UIActivity *pihActivity = [[AQSPinterestActivity alloc] init];
+UIActivity *pinActivity = [[AQSPinterestActivity alloc] init];
 
 UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:pinActivity];
 
