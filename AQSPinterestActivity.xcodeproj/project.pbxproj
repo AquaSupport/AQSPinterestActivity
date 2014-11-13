@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A141E4B2C8BEE00BA968EEE4 /* libPods-AQSPinterestActivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FBA71785648516C4175923 /* libPods-AQSPinterestActivity.a */; };
+		3818BE0471886C34CC606221 /* libPods-AQSPinterestActivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FBA71785648516C4175923 /* libPods-AQSPinterestActivity.a */; };
 		B8A2D8FCC8A67A2E1CD9DEFC /* libPods-AQSPinterestActivityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF4491B50BF49170459E07 /* libPods-AQSPinterestActivityTests.a */; };
 		D43F2FB21A0D793700AA458F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FB11A0D793700AA458F /* main.m */; };
 		D43F2FB51A0D793700AA458F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F2FB41A0D793700AA458F /* AppDelegate.m */; };
@@ -49,7 +49,7 @@
 		D43F2FC51A0D793700AA458F /* AQSPinterestActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQSPinterestActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43F2FCA1A0D793700AA458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D43F2FCB1A0D793700AA458F /* AQSPinterestActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQSPinterestActivityTests.m; sourceTree = "<group>"; };
-		D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AQSPinterestActivity.xcassets; sourceTree = "<group>"; };
+		D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AQSPinterestActivity.xcassets; path = ../AQSPinterestActivity/Classes/AQSPinterestActivity.xcassets; sourceTree = "<group>"; };
 		D43F2FDA1A0D7B6F00AA458F /* AQSPinterestActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSPinterestActivity.h; sourceTree = "<group>"; };
 		D43F2FDB1A0D7B6F00AA458F /* AQSPinterestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSPinterestActivity.m; sourceTree = "<group>"; };
 		D43F2FDD1A0D7F3200AA458F /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A141E4B2C8BEE00BA968EEE4 /* libPods-AQSPinterestActivity.a in Frameworks */,
+				3818BE0471886C34CC606221 /* libPods-AQSPinterestActivity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +80,7 @@
 		D43F2FA31A0D793700AA458F = {
 			isa = PBXGroup;
 			children = (
+				D43F2FE11A0D902700AA458F /* Resources */,
 				D43F2FAE1A0D793700AA458F /* AQSPinterestActivity */,
 				D43F2FC81A0D793700AA458F /* AQSPinterestActivityTests */,
 				D43F2FAD1A0D793700AA458F /* Products */,
@@ -143,11 +144,18 @@
 		D43F2FD51A0D794900AA458F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */,
 				D43F2FDA1A0D7B6F00AA458F /* AQSPinterestActivity.h */,
 				D43F2FDB1A0D7B6F00AA458F /* AQSPinterestActivity.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		D43F2FE11A0D902700AA458F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D43F2FD81A0D799200AA458F /* AQSPinterestActivity.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		D8128F7821226E6D61923964 /* Frameworks */ = {
@@ -177,11 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43F2FCF1A0D793700AA458F /* Build configuration list for PBXNativeTarget "AQSPinterestActivity" */;
 			buildPhases = (
-				82096C76BC4085917FDCBD5D /* Check Pods Manifest.lock */,
+				3B541D64B31A7EBB5165CAE2 /* Check Pods Manifest.lock */,
 				D43F2FA81A0D793700AA458F /* Sources */,
 				D43F2FA91A0D793700AA458F /* Frameworks */,
 				D43F2FAA1A0D793700AA458F /* Resources */,
-				4061270386145118AA951350 /* Copy Pods Resources */,
+				44B54364C9F89844DCB7742B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +280,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4061270386145118AA951350 /* Copy Pods Resources */ = {
+		3B541D64B31A7EBB5165CAE2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44B54364C9F89844DCB7742B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,21 +323,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AQSPinterestActivityTests/Pods-AQSPinterestActivityTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		82096C76BC4085917FDCBD5D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BA72C243E3D0F3FA0454C1DC /* Check Pods Manifest.lock */ = {

@@ -8,7 +8,7 @@
 
 #import "AQSPinterestActivity.h"
 
-#import <Pinterest/Pinterest.h>
+#import <Pinterest.h>
 
 @interface AQSPinterestActivity ()
 
@@ -24,7 +24,15 @@
 - (instancetype)initWithClientID:(NSString *)clientID {
     self = [super init];
     if (self) {
-        self.pinterest = [[Pinterest alloc] initWithClientId:clientID];
+        _pinterest = [[Pinterest alloc] initWithClientId:clientID];
+    }
+    return self;
+}
+
+- (instancetype)initWithPinterest:(Pinterest *)pinterest {
+    self = [super init];
+    if (self) {
+        _pinterest = pinterest;
     }
     return self;
 }
